@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    font-family: 'Sarabun', sans-serif;
+}
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./bg1.jpg');
+    color: white;
+    background-size: cover;
+}
+.about{
+    height: 300vh;
+    display: flex;
+}
+.about-title{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0!important;
+}
+.about-page{
+    width: 50%;
+}
+.about-page div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.about-page div> p{
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.about-page div:nth-child(1){
+    background-color: rgb(56,134,89);
+}
+.about-page div:nth-child(2){
+    background-color: rgb(129,42,110);
+}
+.about-page div:nth-child(3){
+    background-color: rgb(31,88,107);
+}
+footer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: bisque;
+}
+footer p{
+    text-align: center;
+    font-size: 1.5rem;
+}
